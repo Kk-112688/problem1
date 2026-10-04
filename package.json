@@ -1,0 +1,13 @@
+{
+  "name": "deadlock-demo",
+  "version": "1.0.0",
+  "description": "Node.js demo: concurrent async workers generate random numbers from two shared resources and write them to a shared CSV under a fixed-window rate limit, deliberately causing a deadlock.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "ISC"
+}
